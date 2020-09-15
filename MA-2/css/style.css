@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #333;
+  color: #fff; }
+
+/* ----   Navbar Section   ----   */
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7; }
+
+/*  ----  Logo Section   -----   */
+.logo {
+  width: 40px;
+  height: 40px; }
+
+/*  -----  Home Section -----     */
+.home .bg {
+  background: #b72b61; }
+
+#home-section {
+  background: url("../img/1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 700px; }
+  #home-section .fa {
+    background: red;
+    color: aqua;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+  #home-section .card-form {
+    opacity: 0.8;
+    margin-top: 25px; }
+  #home-section .home-inner {
+    padding-top: 130px;
+    padding-bottom: 50px; }
+
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }
+
+/*  -----  Explore Section -----     */
+.explore-bg {
+  background: #1c1a1e; }
+
+.explore-main-bg {
+  background: #a3acb7; }
+
+.bg-explore .img-explore {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+
+#explore-main-section {
+  color: #000000; }
+  #explore-main-section .fa {
+    font-size: 30px;
+    background: #ff0000;
+    color: aqua;
+    padding: 4px;
+    border-radius: 5px; }
+
+/*  -----  Create Section -----     */
+.bg-create {
+  background: #b72b61; }
+
+.bg-create-bg .img-create {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }
+
+#create-main-section .fa {
+  font-size: 30px;
+  background: red;
+  color: aqua;
+  padding: 4px;
+  border-radius: 5px; }
+
+.create-bg-section {
+  background: #a3acb7;
+  color: black; }
+
+/*  -----  Share Section -----     */
+#share-head-section {
+  background: #1c1a1e; }
+
+#share-main-section .fa {
+  font-size: 30px;
+  background: red;
+  color: aqua;
+  padding: 4px;
+  border-radius: 5px; }
+
+.share-bg {
+  background: #a3acb7; }
+
+.share-bg-section {
+  color: black; }
+
+.clip .img-clip {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); }
+
+@media (max-width: 991px) {
+  .margin {
+    margin-top: 50px; } }
+
+/*  -----  Share Section -----     */
+.bg-footer .img-footer {
+  height: 50px;
+  width: 50px; }
+
+.gotop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #ff8217;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+  color: #fcfcfc;
+  opacity: 0.8;
+  border-radius: 5pc; }
