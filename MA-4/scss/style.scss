@@ -1,0 +1,242 @@
+/*  Navbar Section   */
+
+.navbar{
+    .nav-item{
+       padding-left: 1em ;
+    }
+    background: #000;
+}
+.carousel-item{
+    height: 500px;
+}
+
+
+/*  Slider-Section-Background Image  */
+.carousel-img-1{
+        background: url(../img/image1.jpeg);
+    }
+.carousel-img-2{
+        background: url(../img/image2.jpeg);
+    }
+
+.carousel-img-3{
+        background: url(../img/image3.jpeg);
+    }
+/*  Carousel Position   */
+
+#showcase{
+    position: relative;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 450px;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 250px;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 250px;
+}
+
+/*  Home Section  */
+
+#home-icon{
+    margin-top: 500px;
+    .fa{
+        font-size: 50px;
+    }
+}
+
+/*  Home Section Started  */
+
+#getstarted{
+    position: relative;
+    background: url(../img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+    .dark-overlay{
+    background: rgba(0, 0, 0,0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*  Home video Section Started  */
+
+#home-video{
+    position: relative;
+    background: url(../img/people.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+    .dark-overlay{
+    background: rgba(0, 0, 0,0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .fa{
+        font-size: 50px;
+        color: red;
+    }
+}
+
+/*  Home gallery Section Started  */
+
+#gallery{
+    img{
+        height: 250px;
+    }
+}
+ /*------Home CopyRight Section Start------*/
+
+#copyright{
+    background: #000;
+}
+
+
+/*About section*/
+#page-header{
+    background: url('../img/image1.jpeg');
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+#info{
+    img{
+        clip-path: circle(50% at 50% 50%);
+        width: 350px;
+        height: 350px;
+    }
+}
+
+#topic{
+    .fa{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+}
+#testimonial{
+    
+    .slick-prev:before, 
+    .slick-next:before{
+    color: #000;
+} 
+}
+#services-page-header{
+    background: url('../img/image2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+#blog-page-header{
+    background: url('../img/image3.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+#blog{
+    img{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+#contact-page-header{
+    background: url('../img/image2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+/*  Navbar Section Media Query  */
+
+@media(max-width:767px)
+{
+    
+    .nav-item{
+        padding-left: 0 !important;
+    } 
+    #getstarted{
+        min-height: 300px;
+    }
+    
+}
+
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #417ceb;
+    bottom:40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 35px;
+    color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+
+
+/*  Carousel Responsive H2  */
+@media(max-width:480px)
+{
+    .carousel h2{
+        font-size: 2.5rem;
+    }
+    #getstarted{
+       min-height: 325px;
+    }
+     #home-video{
+     min-height: 300px;
+    }
+}
+@media(max-width: 375px)
+{
+     #getstarted{
+     min-height: 390px;
+    }
+}
+@media(max-width: 320px)
+{
+     #getstarted{
+     min-height: 420px;
+    }
+}
+@media(max-width:767px)
+{
+     #image-section
+    {
+        img{
+            margin-top: 50px;
+        }
+    }
+}
+@media(max-width: 360px)
+{
+     #home-video{
+     min-height: 300px;
+    }
+}
+
