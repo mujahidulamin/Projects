@@ -75,9 +75,6 @@
     color: red; }
 
 /*  Home gallery Section Started  */
-#gallery img {
-  height: 250px; }
-
 /*------Home CopyRight Section Start------*/
 #copyright {
   background: #000; }
@@ -92,8 +89,8 @@
 
 #info img {
   clip-path: circle(50% at 50% 50%);
-  width: 350px;
-  height: 350px; }
+  width: 300px;
+  height: 300px; }
 
 #topic .fa {
   font-size: 50px;
